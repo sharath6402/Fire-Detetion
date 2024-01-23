@@ -13,10 +13,6 @@ This repository contains the code and resources for detecting fires in images an
 - [Dataset](#dataset)
 - [Training](#training)
 - [Inference](#inference)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Installation
 
@@ -38,7 +34,7 @@ To set up the project, follow these steps:
 3. Download the pre-trained YOLOv8 weights:
 
    ```bash
-   wget https://github.com/ultralytics/yolov5/releases/download/v5.0/yolov5s.pt -O weights/yolov5s.pt
+   wget https://github.com/ultralytics/yolov8/releases/download/v8.0/yolov8s.pt -O weights/yolov8s.pt
    ```
 
 ## Usage
@@ -69,21 +65,5 @@ Explain how to perform inference on new images or videos using the trained model
 python detect_fire.py --image input.jpg --weights trained_model.pt
 ```
 
-## Results
 
-Share the performance metrics, evaluation results, or visualizations to showcase the effectiveness of the model. Include example images with bounding boxes around detected fires.
 
-## Contributing
-
-Provide guidelines for contributors. Explain how they can report issues, submit feature requests, or contribute to the development of the project.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-Mention and thank any individuals, organizations, or projects that have contributed to or inspired your work.
-```
-
-Remember to replace placeholders such as `your-username` with your actual GitHub username, and update the commands and details based on your specific project structure and requirements.
