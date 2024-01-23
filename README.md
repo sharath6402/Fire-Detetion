@@ -1,4 +1,4 @@
-# Fire-Detetion using yolov8
+
 
 # Fire Detection using YOLOv8
 
